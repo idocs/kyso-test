@@ -1,5 +1,5 @@
 ---
-title: "Article 2"
+title: "Article 2: Update Title"
 output: github_document
 ---
 
