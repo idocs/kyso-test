@@ -1,4 +1,4 @@
-Article 2
+Article 2: Update Title
 ================
 
 ## R Markdown
