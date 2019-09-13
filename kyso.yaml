@@ -1,3 +1,4 @@
 hideRoot: true
+main: "*.md"
 posts:
   - "*"
