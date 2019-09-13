@@ -1,4 +1,4 @@
 hideRoot: true
-main: "*.md"
+main: "article*.md"
 posts:
   - "*"
