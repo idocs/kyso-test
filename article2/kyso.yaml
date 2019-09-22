@@ -1,4 +1,5 @@
 main: article2.md
 title: Article 2 (Title in kyso.yml)
 description: Description (in kyso.yml)
+preview: article2_files/figure-gfm/unnamed-chunk-1-1.png
 tags: [tag1, tag2]
