@@ -1,0 +1,4 @@
+main: article2.md
+title: Article 2 (Title in kyso.yml)
+description: Description (in kyso.yml)
+tags: [tag1, tag2]
