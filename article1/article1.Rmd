@@ -27,11 +27,11 @@ plot(pressure)
 
 Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
 
-```{r fig.width = 12, fig.height = 4}
+```{r fig.width = 12, fig.height = 5}
 library(ggplot2)
 ggplot(mtcars, aes(x = wt, y = mpg)) +
   geom_point() +
-  theme_gray(base_size = 20, base_family = 'Lato') +
+  theme_gray(base_size = 16, base_family = 'Lato') +
   labs(title = 'Mileage vs. Weight')
 ```
 

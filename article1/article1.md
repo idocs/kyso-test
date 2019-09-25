@@ -36,7 +36,7 @@ prevent printing of the R code that generated the plot.
 library(ggplot2)
 ggplot(mtcars, aes(x = wt, y = mpg)) +
   geom_point() +
-  theme_gray(base_size = 20, base_family = 'Lato') +
+  theme_gray(base_size = 16, base_family = 'Lato') +
   labs(title = 'Mileage vs. Weight')
 ```
 
