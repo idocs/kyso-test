@@ -38,3 +38,5 @@ rsconnect/
 # Mac OS
 .DS_Store
 
+# Jupyter Nb Checkpoints
+.ipynb_checkpoints/
