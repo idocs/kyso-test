@@ -37,7 +37,8 @@ library(ggplot2)
 ggplot(mtcars, aes(x = wt, y = mpg)) +
   geom_point() +
   theme_gray(base_size = 16, base_family = 'Lato') +
-  labs(title = 'Mileage vs. Weight')
+  labs(title = 'Mileage vs. Weight') +
+  theme(panel.background = element_rect(fill = "#EBF4F7"))
 ```
 
 ![](article1_files/figure-gfm/unnamed-chunk-1-1.png)<!-- -->
