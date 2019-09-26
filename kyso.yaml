@@ -1,7 +1,4 @@
 hideRoot: true
 posts:
-  - article1
-  - article2
-  - article3
-  - article4
-  - article5/*
+  - category1/*
+  - category2/*
