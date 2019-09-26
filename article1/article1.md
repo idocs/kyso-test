@@ -1,19 +1,24 @@
-Article 1
-================
+---
+title: "Article 1"
+description: Here is a short description
+output:
+  md_document:
+    preserve_yaml: true
+---
 
-## R Markdown
+R Markdown
+----------
 
 This is an R Markdown document. Markdown is a simple formatting syntax
 for authoring HTML, PDF, and MS Word documents. For more details on
-using R Markdown see <http://rmarkdown.rstudio.com>.
+using R Markdown see
+<a href="http://rmarkdown.rstudio.com" class="uri">http://rmarkdown.rstudio.com</a>.
 
 When you click the **Knit** button a document will be generated that
 includes both content as well as the output of any embedded R code
 chunks within the document. You can embed an R code chunk like this:
 
-``` r
-summary(cars)
-```
+    summary(cars)
 
     ##      speed           dist       
     ##  Min.   : 4.0   Min.   :  2.00  
@@ -23,22 +28,21 @@ summary(cars)
     ##  3rd Qu.:19.0   3rd Qu.: 56.00  
     ##  Max.   :25.0   Max.   :120.00
 
-## Including Plots
+Including Plots
+---------------
 
 You can also embed plots, for example:
 
-![](article1_files/figure-gfm/pressure-1.png)<!-- -->
+![](article1_files/figure-markdown_strict/pressure-1.png)
 
 Note that the `echo = FALSE` parameter was added to the code chunk to
 prevent printing of the R code that generated the plot.
 
-``` r
-library(ggplot2)
-ggplot(mtcars, aes(x = wt, y = mpg)) +
-  geom_point() +
-  theme_gray(base_size = 16, base_family = 'Lato') +
-  labs(title = 'Mileage vs. Weight') +
-  theme(panel.background = element_rect(fill = "#EBF4F7"))
-```
+    library(ggplot2)
+    ggplot(mtcars, aes(x = wt, y = mpg)) +
+      geom_point() +
+      theme_gray(base_size = 16, base_family = 'Lato') +
+      labs(title = 'Mileage vs. Weight') +
+      theme(panel.background = element_rect(fill = "#EBF4F7"))
 
-![](article1_files/figure-gfm/unnamed-chunk-1-1.png)<!-- -->
+![](article1_files/figure-markdown_strict/unnamed-chunk-1-1.png)
