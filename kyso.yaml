@@ -1,4 +1,3 @@
-hideRoot: true
 main: article.md
 posts:
   - *
