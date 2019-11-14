@@ -13,8 +13,9 @@ output:
 
 ```r
 ggplot(mtcars, aes(x = wt, y = mpg)) +
-  geom_point()
+  geom_point() +
+  theme_gray(base_size = 18, base_family = 'Lato')
 ```
 
-![](article_files/figure-html/unnamed-chunk-1-1.png)<!-- -->
+![](article_files/figure-html/plot-1-1.png)<!-- -->
 

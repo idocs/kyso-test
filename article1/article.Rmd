@@ -13,9 +13,9 @@ theme_set(ggdc::theme_datacamp())
 ```
 
 
-```{r fig.width = 12, fig.height = 5, fig.dpi = 600}
+```{r plot-1, fig.width = 12, fig.height = 5, fig.dpi = 600}
 ggplot(mtcars, aes(x = wt, y = mpg)) +
   geom_point() +
-  theme_gray(base_size = 24, base_family = 'Lato')
+  theme_gray(base_size = 18, base_family = 'Lato')
 ```
 
