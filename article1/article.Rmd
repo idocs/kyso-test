@@ -1,5 +1,6 @@
 ---
 title: First Article
+description: This is a short description
 output:
   md_document:
     preserve_yaml: true
