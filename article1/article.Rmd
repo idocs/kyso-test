@@ -12,10 +12,19 @@ library(ggplot2)
 theme_set(ggdc::theme_datacamp())
 ```
 
+## Plot
 
 ```{r plot-1, fig.width = 12, fig.height = 5, dpi = 300}
 ggplot(mtcars, aes(x = wt, y = mpg)) +
   geom_point() +
   theme_gray(base_size = 18, base_family = 'Lato')
 ```
+
+## Table
+
+```{r}
+knitr::kable(head(mtcars, 10)) 
+```
+
+
 
