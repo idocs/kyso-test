@@ -1,6 +1,7 @@
 ---
 title: First Article
 description: This is a short description
+tags: [tag1, tag2]
 output:
   html_document:
     keep_md: true
