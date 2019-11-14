@@ -19,7 +19,7 @@ ggplot(mtcars, aes(x = wt, y = mpg)) +
   theme_gray(base_size = 18, base_family = 'Lato')
 ```
 
-![](article_files/figure-html/plot-1-1.png)<!-- -->
+![](knowledge_files/figure-html/plot-1-1.png)<!-- -->
 
 ## Table
 
