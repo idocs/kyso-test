@@ -1,0 +1,18 @@
+---
+title: First Article
+output:
+  md_document:
+    preserve_yaml: true
+---
+
+```{r setup, include = FALSE}
+library(ggplot2)
+theme_set(ggdc::theme_datacamp())
+```
+
+
+```{r}
+ggplot(mtcars, aes(x = wt, y = mpg)) +
+  geom_point()
+```
+

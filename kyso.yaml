@@ -1,4 +1,4 @@
 hideRoot: true
+main: article.md
 posts:
-  - category1/*
-  - category2/*
+  - article1/*
