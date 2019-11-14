@@ -23,7 +23,7 @@ ggplot(mtcars, aes(x = wt, y = mpg)) +
 ## Table
 
 ```{r}
-knitr::kable(head(mtcars, 10)) 
+knitr::kable(head(mtcars, 10), format = 'markdown') 
 ```
 
 
