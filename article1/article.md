@@ -1,11 +1,20 @@
 ---
 title: First Article
+description: This is a short description
 output:
-  md_document:
+  html_document:
+    keep_md: true
     preserve_yaml: true
 ---
 
-    ggplot(mtcars, aes(x = wt, y = mpg)) +
-      geom_point()
 
-![](article_files/figure-markdown_strict/unnamed-chunk-1-1.png)
+
+
+
+```r
+ggplot(mtcars, aes(x = wt, y = mpg)) +
+  geom_point()
+```
+
+![](article_files/figure-html/unnamed-chunk-1-1.png)<!-- -->
+

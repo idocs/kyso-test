@@ -2,7 +2,8 @@
 title: First Article
 description: This is a short description
 output:
-  md_document:
+  html_document:
+    keep_md: true
     preserve_yaml: true
 ---
 
@@ -12,8 +13,9 @@ theme_set(ggdc::theme_datacamp())
 ```
 
 
-```{r}
+```{r fig.width = 12, fig.height = 5, fig.dpi = 600}
 ggplot(mtcars, aes(x = wt, y = mpg)) +
-  geom_point()
+  geom_point() +
+  theme_gray(base_size = 24, base_family = 'Lato')
 ```
 

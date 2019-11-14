@@ -40,3 +40,6 @@ rsconnect/
 
 # Jupyter Nb Checkpoints
 .ipynb_checkpoints/
+
+# HTML Files
+*.html
