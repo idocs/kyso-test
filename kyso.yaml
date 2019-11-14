@@ -1,4 +1,4 @@
 hideRoot: true
 main: article.md
 posts:
-  - article1/*
+  - *
